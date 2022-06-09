@@ -4,8 +4,22 @@
   <listeners>
 		<listener class-name="com.ecommerce.utility.ListenerClass"></listener>
 	</listeners>
-  <test thread-count="1" name="Test">
+  <test thread-count="1" name="ChromeTest">
  	<parameter name="browsername" value="Chrome"></parameter>
+    <classes>
+  <!--  <class name="com.ecommerce.testCases.LoginPageTest"/>
+      <class name="com.ecommerce.testCases.AddToCartPageTest"/>
+      <class name="com.ecommerce.testCases.SearchresultPageTest"/>
+      <class name="com.ecommerce.testCases.HomePageTest"/>
+      <class name="com.ecommerce.testCases.OrderPageTest"/>
+      <class name="com.ecommerce.testCases.EndtoEndTest"/>
+     <class name="com.ecommerce.testCases.IndexPageTest"/> -->
+      <class name="com.ecommerce.testCases.AccountCreationPageTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+<!--   <test thread-count="5" name="FirefoxTest">
+ 	<parameter name="browsername" value="ff"></parameter>
     <classes>
       <class name="com.ecommerce.testCases.LoginPageTest"/>
        <class name="com.ecommerce.testCases.AddToCartPageTest"/>
@@ -17,5 +31,5 @@
       <class name="com.ecommerce.testCases.IndexPageTest"/>
      
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
 </suite> <!-- Suite -->
